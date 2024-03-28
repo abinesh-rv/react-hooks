@@ -12,8 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${font.className} bg-black text-xl`}>
-        <App children={children} />
+      <body className={`${font.className} bg-black text-lg`}>
+        <div className="h-[100vh] w-[100vw] flex p-6 justify-center">
+          <App children={children} />
+        </div>
       </body>
     </html>
   );

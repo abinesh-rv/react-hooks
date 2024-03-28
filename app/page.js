@@ -1,11 +1,12 @@
 import React from "react";
-import NavBar from "./_components/NavBar";
 
 function page() {
   return (
-    <>
-      <NavBar />
-    </>
+    <div className="h-full flex flex-col justify-center">
+      <div className="text-4xl text-center text-cyan-500">
+        Dive deep into the world of react hooks
+      </div>
+    </div>
   );
 }
 
